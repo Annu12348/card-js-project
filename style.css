@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+#nav{
+    width: 95%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(248, 245, 245);
+    margin-left: 35px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    font-family: "gilroy";
+    font-weight: 700;
+}
+
+#nav-part{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav-part a{
+    color: white;
+    text-decoration: double;
+    font-size: 28px;
+}
+
+#middle{
+    width: 100%;
+    height: 79%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+}
+
+#left h1{
+    font-size: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 90px 49px;
+    font-family: "gilroy";
+    font-weight: 700;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right img{
+    width: 70%;
+    height: 70%;
+    border-radius: 29px;
+}
+
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+#card1{
+    width: 350px;
+    height: 300px;
+    border: 2px solid rgb(248, 243, 243);
+    border-radius: 20px;
+}
+
+#card1 h1{
+    text-align: center;
+    font-family: "gilroy";
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 30px;
+}
+
+#card1 p{
+    margin: 30px 30px;
+    text-align: center;
+    font-family: "gilroy";
+    font-weight: 600;
+}
